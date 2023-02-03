@@ -1,20 +1,37 @@
 import './Navigation.css';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import React from 'react';
+// import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
 
 function Navigation() {
     return (
-        <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+      <div >
+      <ul className="navigation">
+					<li >jaelyn evans</li>
+				</ul>
+				<ul className="navigation">
+					<div className="top">
+						<li>
+							about
+						</li>
+						<li>
+							experience
+						</li>
+						<li>
+							projects
+						</li>
+						<li>
+							notebook
+						</li>
+					</div>
+					<div className="bottom">
+						<li>
+							contact
+						</li>
+					</div>
+				</ul>
+        </div>
     );
 }
 

@@ -1,8 +1,62 @@
 .homepagemain {
-    background-color: gray;
+    /* background-color: yellow; */
+    /* height: 100vh; */
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 600px 200px;
+    grid-template-columns: 400px 300px;
 }
 
-.name {
-    font-family: 'Comic Sans';
-    background-color: gray;
+.greetings {
+    font-family: 'serif';
+    /* background-color: purple; */
+    text-align: center ;
+    color: green;
+    font-size: 69px;
+    /* height: 100vh; */
+    /* width: 500vw; */
+    padding-top: 200px;
+    padding-left: 1px;
+    padding-right: 100px;
+    background-color: white ;
+    /* margin-right: 100px; */
+    grid-row: 1;
+    grid-column: 1/ span 2;
+    overflow: hidden;
 }
+.main {
+    /* display: flex;
+    flex-direction: row; */
+    background-color: rgb(255, 5, 168);
+}
+.picdiv {
+    /* height: 100vh; */
+    /* background-color: aqua; */
+    background-color: white ;
+    /* height: 500px; */
+    /* width: 500px; */
+    grid-row: 1;
+    grid-column: 3;
+    margin-left: 20px;
+    padding-left: 20px;
+
+}
+.profpic {
+    height: 500px;
+    width: 500px;
+    /* padding-left: 50px; */
+    border-radius: 50%;
+   
+}
+
+.quote {
+    /* height:100vh;
+    width: 100vw; */
+    /* background-color: darkkhaki; */
+    background-color: white ;
+    color:red;
+    grid-row: 2;
+    grid-column: 1/ span 3;
+    padding-top: 50px;
+}
+

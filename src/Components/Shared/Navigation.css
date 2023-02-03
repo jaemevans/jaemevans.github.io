@@ -1,0 +1,9 @@
+.navigation {
+    display: flex;
+    /* z-index: 3; */
+    flex-direction: column;
+    flex: none;
+    /* background-color: lawngreen; */
+    background-color: white;
+    list-style: none;
+}
