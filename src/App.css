@@ -1,27 +1,31 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   background-color: black;
+  max-height: 100%;
+  overflow: hidden;
 }
 
 .wrapper {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 150px 100px;
-  grid-template-rows: 100vh;
-  /* background-color: #fff; */
+  grid-gap: 30px;
+  
+  /* grid-template-columns: 100%; */
+  grid-template-rows: 10% 90%;
   background-color: white;
+  /* background-color: #F5F5FA; */
   color: blue;
 }
 .a {
-  grid-column: 2/3;
-  /* grid-row: 3/3; */
-  /* background-color: darkgreen; */
-  background-color: white;
+  /* grid-column: 1; */
+  grid-row: 2/3;
+  background-color: darkgreen;
+  /* background-color: #F5F5FA; */
 }
 
 .b {
-  grid-column: 1 ;
-  /* grid-row: 3 / 3; */
-  /* background-color: crimson; */
-  background-color: white;
+  /* grid-column: 1 ; */
+  grid-row: 1;
+  background-color: lightgrey;
+  
+  /* background-color: #F5F5FA; */
 }
