@@ -61,7 +61,7 @@
 
 
 img {
-    -webkit-filter: drop-shadow(2px 2px 0 green)
+    /* -webkit-filter: drop-shadow(2px 2px 0 green)
                 drop-shadow(-2px 2px 0 green)
                 drop-shadow(2px -2px 0 green)
                 drop-shadow(-2px -2px 0 green);
@@ -69,7 +69,7 @@ img {
 filter: drop-shadow(2px 2px 0 green)
         drop-shadow(-2px 2px 0 green)
         drop-shadow(2px -2px 0 green)
-        drop-shadow(-2px -2px 0 green);
+        drop-shadow(-2px -2px 0 green); */
 
     height: 500px;
     width: 500px;

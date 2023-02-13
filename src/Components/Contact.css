@@ -1,8 +1,51 @@
 .testing {
-    color:aquamarine;
-    background-color: darkcyan;
+    background-color: #F5F5F5;
     width: 6900px;
-    height: 7000px;
+    height: 700px;
     margin-top: 5%;
+    display: flex;
+    flex-direction: column;
 
+}
+.hello {
+    color: #EB6440;
+    font-size: 62px;
+}
+.blab {
+    color: #2F2B2B;
+    font-size: 36px;
+    margin-right: 50px;
+    text-overflow: clip;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    padding-left: 350px;
+    padding-right: 50px;
+    padding-top: 5%;
+    /* padding-bottom: 50px; */
+}
+
+
+img {
+    /* -webkit-filter: drop-shadow(2px 2px 0 green)
+                drop-shadow(-2px 2px 0 green)
+                drop-shadow(2px -2px 0 green)
+                drop-shadow(-2px -2px 0 green);
+
+filter: drop-shadow(2px 2px 0 green)
+        drop-shadow(-2px 2px 0 green)
+        drop-shadow(2px -2px 0 green)
+        drop-shadow(-2px -2px 0 green); */
+
+    height: 100px;
+    width: 100px;
+    padding-bottom: 20px;
+    margin: 30px;
+    filter: saturate(0);
+}
+
+img:hover {
+    filter: none;
 }
