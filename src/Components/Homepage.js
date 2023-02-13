@@ -32,13 +32,16 @@ function Homepage() {
           ]}
           springConfig={{ stiffness: 180, damping: 8 }}
         />
-        <div>spacer</div>
-        <p> my name is jaelyn.</p>
+       
       </div>
+      <div className="spacer">spacer
+      <p> my name is jaelyn. ahhahahhahhahahhahahhahhahahahhahahhahahahhaha</p>
+      </div>
+        
 
       <div className="picdiv">
-        <p>see me?</p>
-        <img src="images/profpic.jpeg" alt="its me yall" className="profpic" />
+        {/* <p>see me?</p> */}
+        <img src="images/profpic1.png" alt="its me yall"  />
       </div>
 
       <div className="quote">

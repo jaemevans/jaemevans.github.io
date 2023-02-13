@@ -11,8 +11,9 @@ function Navigation() {
     <div>
        <nav>
         <div class="logo">
-          
+			
             <Link to="/">jaelyn</Link>
+			
         </div>
 		<input type="checkbox" id="click" />
          <label for="click" class="menu-btn" >
