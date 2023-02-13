@@ -12,8 +12,7 @@ function Navigation() {
        <nav>
         <div class="logo">
           
-            {/* <Link to="/">jaelyn</Link> */}
-        jaelyn
+            <Link to="/">jaelyn</Link>
         </div>
 		<input type="checkbox" id="click" />
          <label for="click" class="menu-btn" >
@@ -35,14 +34,6 @@ function Navigation() {
           </li>
         </ul>
 		</nav> 
-		<div class="content">
-         <div>
-            Responsive Navigation Menu Bar Design
-         </div>
-         <div>
-            using only HTML & CSS
-         </div>
-      </div>
     
     </div>
   );

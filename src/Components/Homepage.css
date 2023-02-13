@@ -57,3 +57,25 @@
     padding-top: 50px;
 }
 
+
+/* media queries so the page becomes responsive*/
+
+@media screen and (max-width: 992px) {
+    .homepagemain {
+      background-color: blue;
+      color: white;
+      display: table-row;
+    }
+    .greetings{
+        overflow: hidden;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+   .homepagemain{
+      background-color: olive;
+      color: white;
+      display: table-row;
+    }
+  }
