@@ -1,6 +1,8 @@
 import "./Navigation.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { WiHorizonAlt } from "react-icons/wi";
+// import {BsMoonStars} from "react-icons";
 
 // import Container from 'react-bootstrap/Container';
 // import Nav from 'react-bootstrap/Nav';
@@ -9,16 +11,14 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function Navigation() {
   return (
     <div>
-       <nav>
+      <nav>
         <div class="logo">
-			
-            <Link to="/">jaelyn</Link>
-			
+          <Link to="/">jaelyn</Link>
         </div>
-		<input type="checkbox" id="click" />
-         <label for="click" class="menu-btn" >
-         <i class="fa fas fa-bars"></i>
-         </label>
+        <input type="checkbox" id="click" />
+        <label for="click" class="menu-btn">
+          <i class="fa fas fa-bars"></i>
+        </label>
 
         <ul>
           <li>
@@ -33,9 +33,11 @@ function Navigation() {
           <li>
             <Link to="/contact">contact</Link>
           </li>
+          <li>
+            < WiHorizonAlt color="white" size="25px" />
+          </li>
         </ul>
-		</nav> 
-    
+      </nav>
     </div>
   );
 }
@@ -126,6 +128,3 @@ export default Navigation;
 
 // 	/* background-color: #F5F5FA; */
 //   }
-
-
-

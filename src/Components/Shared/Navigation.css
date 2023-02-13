@@ -106,6 +106,9 @@ nav ul{
 nav ul li{
   margin: 0 5px;
 }
+nav ul li:hover {
+  color: #EB6440;
+}
 nav ul li a{
   color: #f2f2f2;
   text-decoration: none;
@@ -145,7 +148,7 @@ input[type="checkbox"]{
     position: fixed;
     top: 80px;
     left: -100%;
-    background: #111;
+    background: #D6E4E5;
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -164,6 +167,7 @@ input[type="checkbox"]{
     margin-left: -100%;
     display: block;
     font-size: 20px;
+    color:black;
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
    
   }
