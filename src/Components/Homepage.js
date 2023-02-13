@@ -9,6 +9,7 @@ import TextLoop from "react-text-loop";
 
 function Homepage() {
   return (
+
     <div className="homepagemain">
       <div className="greetings">
         <TextLoop
