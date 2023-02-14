@@ -34,7 +34,7 @@
 }
 
 
-img {
+.img2 {
     /* -webkit-filter: drop-shadow(2px 2px 0 green)
                 drop-shadow(-2px 2px 0 green)
                 drop-shadow(2px -2px 0 green)
@@ -52,6 +52,6 @@ filter: drop-shadow(2px 2px 0 green)
     filter: saturate(0);
 }
 
-img:hover {
+.img2:hover {
     filter: none;
 }

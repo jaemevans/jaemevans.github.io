@@ -1,7 +1,15 @@
+* {
+    font-family: 'Azeret Mono', monospace;
+
+}
+
+
 .all {
     width: 100%;
-    height: 706px;
+    height: 7090px;
     background-color: darkmagenta;
     color: black;
     margin-top: 6%;
+    font-family: 'Azeret Mono', monospace;
 }
+

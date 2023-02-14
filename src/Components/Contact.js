@@ -15,10 +15,10 @@ function Contact() {
         </p>
       </div>
       <div className="socials">
-        <img src="images/gmail.png" alt="its me yall" />
-        <img src="images/linkedin.png" alt="its me yall" />
-        <img src="images/github.png" alt="its me yall" />
-        <img src="images/spotify.png" alt="its me yall" />
+        <img src="images/gmail.png" alt="its me yall" className="img2"/>
+        <img src="images/linkedin.png" alt="its me yall" className="img2"/>
+        <img src="images/github.png" alt="its me yall" className="img2"/>
+        <img src="images/spotify.png" alt="its me yall" className="img2"/>
       </div>
     </div>
   );

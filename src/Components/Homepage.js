@@ -34,14 +34,13 @@ function Homepage() {
         />
        
       </div>
-      <div className="spacer">spacer
-      <p> my name is jaelyn. ahhahahhahhahahhahahhahhahahahhahahhahahahhaha</p>
+      <div className="spacer">
+      <p> my name is jaelyn. </p>
       </div>
         
 
       <div className="picdiv">
-        {/* <p>see me?</p> */}
-        <img src="images/profpic1.png" alt="its me yall"  />
+        <img src="images/profpic1.png" alt="its me yall" className="img1" />
       </div>
 
       <div className="quote">
@@ -50,8 +49,7 @@ function Homepage() {
           red hot chili peppers
           <br></br>
           with that being said, please bear with me as i develop this site to be
-          more creative this very much a work in progress and more than likely
-          very buggy i am trying my best
+          more creative and less buggy its a marathon not a sprint.
         </p>
       </div>
     </div>
