@@ -6,6 +6,10 @@
   font-family: 'Poppins', sans-serif;
   
 } 
+button {
+  background-color: transparent;
+  border: none;
+}
 nav{
   display: flex;
   position: fixed;

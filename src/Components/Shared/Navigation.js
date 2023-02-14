@@ -29,7 +29,8 @@ function Navigation() {
             <Link to="/contact">contact</Link>
           </li>
           <li>
-            < WiHorizonAlt color="white" size="25px" />
+            <button>< WiHorizonAlt color="white" size="25px" /></button>
+            
           </li>
         </ul>
       </nav>

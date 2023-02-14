@@ -64,6 +64,7 @@
   padding-top: 100px;
   padding-left: 30px;
   padding-bottom: none;
+  font-size: 10px;
   /* font-family: 'Azeret Mono', sans-serif; */
 }
 
@@ -78,6 +79,8 @@
 
   filter: drop-shadow(4px 4px 0 #D6E4E5) drop-shadow(-4px 4px 0 #D6E4E5)
     drop-shadow(4px -4px 0 #D6E4E5) drop-shadow(-4px -4px 0 #D6E4E5);
+
+position: center;
 }
 
 /* media queries so the page becomes responsive*/
@@ -94,14 +97,34 @@
   .greetings {
     overflow: hidden;
     z-index: 1;
-    height: 300px;
+    height: 250px;
+    /* background-color: aqua; */
   }
   .spacer {
     height: 69px;
+    padding-left: 100px;
+    margin-left: 40px;
+    padding-left: 55px;
+    padding-bottom: 30px;
+    /* background-color: #eb6440; */
+  }
+  .img1 {
+    margin-top: 90px;
+    /* margin-right: 90px; */
+    margin-left: none;
+    padding-left: 80px;
+    width: 500px;
+    height: 500px;
+  }
+  .quote {
+    color: #2F2B2B;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: none;
+    font-size: 10px;
   }
 }
 
-/* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
   .homepagemain {
     display: flex;
@@ -115,22 +138,33 @@
     padding-top: 80px;
     font-size: 64px;
     padding-bottom: none;
-    background-color: aqua;
+    /* background-color: aquamarine; */
   }
 
   .img1 {
     margin-top: 90px;
     /* margin-right: 90px; */
-    margin-left: none;
-    width: 300px;
-    height: 300px;
+    margin-left: 0%;
+    width: 400px;
+    height: 400px;
+    padding-left: 0%;
+    /* background-color: black; */
   }
   .spacer {
     margin-top: none;
-    padding-top: none;
-    background-color: brown;
-    margin-left: none;
-    padding-left: none;
+    padding-top: 0px;
+    margin-left: 0px;
+    padding-left: 25px;
+    width: 100%;
+    /* background-color: #eb6440; */
   }
+  .quote {
+    color: #2F2B2B;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: none;
+    font-size: 10px;
+  }
+  
 
 }
