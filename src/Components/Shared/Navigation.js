@@ -17,7 +17,7 @@ function Navigation() {
 
         <ul>
           <li>
-            <Link to="/about">about</Link>
+            <Link to="/aboout">about</Link>
           </li>
           <li>
             <Link to="/projects">projects</Link>
