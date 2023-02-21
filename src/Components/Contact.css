@@ -49,9 +49,14 @@ filter: drop-shadow(2px 2px 0 green)
     width: 100px;
     padding-bottom: 20px;
     margin: 30px;
-    filter: saturate(0);
+    /* filter: saturate(0); */
 }
 
 .img2:hover {
     filter: none;
+    transform: translateY(-10px);
+    animation: popUp 6s infinite ease-out;
+    animation-delay: 0.14s;
+
+
 }
