@@ -4,6 +4,12 @@ import Card from "./Shared/Card";
 
 function Projects() {
   return (
+    
+ <div>
+  <div className="projheader">
+    projects
+  </div>
+
     <div className="wrapper1">
       <Card
         image="images/personalsite.png"
@@ -21,6 +27,8 @@ function Projects() {
         description="my personal website"
       />
     </div>
+    </div>
+    
   );
 }
 

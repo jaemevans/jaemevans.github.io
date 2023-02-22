@@ -9,16 +9,24 @@
 
 .body1 {
     /* font-family: Oxygen, sans-serif; */
-    margin: 2rem;
-  }
+    /* margin: 2rem; */
+  } 
 
 .wrapper1 {
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    padding-top: 5%;
     margin-left: 5%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
     gap: 2rem;
     /* justify-content: center; */
+  }
+
+  .projheader {
+    color: #EB6440;;
+    font-size: 45px;
+    margin-top: 7%;
+    text-align: center;
   }
 
   /* , minmax(12rem, 16rem) */
