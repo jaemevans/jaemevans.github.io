@@ -26,6 +26,16 @@ function Projects() {
         title="personal website"
         description="my personal website"
       />
+       <Card
+        image="images/personalsite.png"
+        title="personal website"
+        description="my personal website"
+      />
+       <Card
+        image="images/personalsite.png"
+        title="personal website"
+        description="my personal website"
+      />
     </div>
     </div>
     

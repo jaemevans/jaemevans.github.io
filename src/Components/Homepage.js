@@ -30,7 +30,7 @@ function Homepage() {
             "γεια ",
             "kamusta "
           ]}
-          springConfig={{ stiffness: 180, damping: 8 }}
+          springConfig={{ stiffness: 50, damping: 20 }}
         />
        
       </div>
@@ -43,14 +43,15 @@ function Homepage() {
         <img src="images/profpic1.png" alt="its me yall" className="img1" />
       </div>
 
-      <div className="quote">
+      <div className="quotecontain">
+        <div className="quote">
         <p>
           "destrcution leads to a very rough road but it also breeeds creation"-
           red hot chili peppers
-          <br></br>
-          with that being said, please bear with me as i develop this site to be
-          more creative and less buggy its a marathon not a sprint.
         </p>
+        </div>
+    
+
       </div>
     </div>
   );
