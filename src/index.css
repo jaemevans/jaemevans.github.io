@@ -1,7 +1,7 @@
 
 * {
   /* box-sizing: border-box; */
-  font-family: 'Azeret Mono', monospace;
+  font-family: 'Catamaran', sans-serif;
 }
 
 /* html {
@@ -11,5 +11,5 @@
 body {
   margin: 0;
   background-color: #F5F5F5;
-  font-family: 'Azeret Mono', monospace;
+  font-family: 'Catamaran', sans-serif;
 }

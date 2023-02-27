@@ -1,5 +1,5 @@
 .card {
-    overflow: hidden;
+  overflow: hidden;
   /* box-shadow: 0px 12px 10px ; */
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
@@ -9,34 +9,29 @@
   justify-content: space-between;
   cursor: pointer;
   transition: transform 200ms ease-in;
-  background-color: #D6E4E5;
+  background-color: #d6e4e5;
 }
 
 .card:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
-
-.card-body{
-   font-family: "Azeret Mono", monospace;
-   background-color: #D6E4E5;
-   /* margin: 2rem; */
-
+.card-body {
+  font-family: "Catamaran", sans-serif;
+  background-color: #d6e4e5;
+  /* margin: 2rem; */
 }
 
 .card-image {
-    height: 12rem;
-    width: 100%;
-    /* object-fit: cover; */
-
+  height: 12rem;
+  width: 100%;
+  /* object-fit: cover; */
 }
 
 .card-title {
-    padding: 1rem;
-
+  padding: 1rem;
 }
 
 .card-description {
-    padding: 0 1rem;
-
+  padding: 0 1rem;
 }

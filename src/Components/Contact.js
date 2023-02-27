@@ -3,7 +3,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="testing">
+    <div className="contacts">
       <div className="hello">
         <h1>get in touch.</h1>
       </div>
@@ -15,10 +15,10 @@ function Contact() {
         </p>
       </div>
       <div className="socials">
-        <img src="images/gmail.png" alt="its me yall" className="img2"/>
-        <img src="images/linkedin.png" alt="its me yall" className="img2"/>
-        <img src="images/github.png" alt="its me yall" className="img2"/>
-        <img src="images/spotify.png" alt="its me yall" className="img2"/>
+        <a href = "mailto: jaelynevans1@gmail.com"><img src="images/gmail.png" alt="gmail" className="img2"/></a>
+        <a href= "https://www.linkedin.com/in/jaelyn-evans/" target="_blank"> <img src="images/linkedin.png" alt="linkedin" className="img2"/></a>
+        <a href= "https://github.com/jaemevans" target="_blank"> <img src="images/github.png" alt="github" className="img2"/> </a>
+        <a href= "https://open.spotify.com/user/j.m.e74?si=MX7CVQUwRsiVhszyb_gilQ" target="_blank"><img src="images/spotify.png" alt="spotify" className="img2"/> </a>
       </div>
     </div>
   );
