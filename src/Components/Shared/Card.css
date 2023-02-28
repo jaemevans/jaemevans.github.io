@@ -11,7 +11,10 @@
   transition: transform 200ms ease-in;
   background-color: #d6e4e5;
 }
-
+.weblinks {
+  color: black;
+  text-decoration: none;
+}
 .card:hover {
   transform: scale(1.02);
 }
@@ -29,7 +32,7 @@
 }
 
 .card-title {
-  padding: 1rem;
+  padding: 5px;
 }
 
 .card-description {

@@ -30,3 +30,18 @@
   }
 
   /* , minmax(12rem, 16rem) */
+
+
+  @media screen and (max-width: 992px) {
+    .projheader{
+      margin-top: 90px;
+    }
+   
+  }
+  
+  @media screen and (max-width: 600px) {
+    .wrapper1 {
+      margin-left: 10%;
+    }
+  }
+  

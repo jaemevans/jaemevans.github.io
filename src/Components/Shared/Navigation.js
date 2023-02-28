@@ -29,7 +29,8 @@ function Navigation() {
             <Link to="/contact">contact</Link>
           </li>
           <li>
-            <button>< WiHorizonAlt color="white" size="25px" /></button>
+            {/* unfortunately implementing dark mode is a lot more complicated than i thought it would be  */}
+            {/* <button>< WiHorizonAlt color="white" size="25px" /></button> */}
             
           </li>
         </ul>

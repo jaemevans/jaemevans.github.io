@@ -84,7 +84,9 @@
   width: 494px;
   padding-bottom: 20px;
   margin-left: 30px;
-
+  animation: fade-in-down 0.6s;
+    animation-delay: 0.3s;
+    animation-fill-mode: both;
   -webkit-filter: drop-shadow(4px 4px 0 #d6e4e5) drop-shadow(-4px 4px 0 #d6e4e5)
     drop-shadow(2px -2px 0 #d6e4e5) drop-shadow(-2px -2px 0 #d6e4e5);
 
@@ -100,7 +102,7 @@
   .homepagemain {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     padding-top: none;
     padding-left: none;
     padding-right: none;
@@ -109,23 +111,28 @@
     overflow: hidden;
     z-index: 1;
     height: 250px;
+    font-size: 95px;
     /* background-color: aqua; */
   }
   .spacer {
     height: 69px;
-    padding-left: 100px;
-    margin-left: 40px;
-    padding-left: 55px;
+    margin-left: 0px;
+    padding-left: 0px;
     padding-bottom: 30px;
     /* background-color: #eb6440; */
   }
   .img1 {
     margin-top: 90px;
     /* margin-right: 90px; */
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 600px;
+    height: 600px;
+  }
+  .picdiv{
     margin-left: none;
-    padding-left: 80px;
-    width: 500px;
-    height: 500px;
+    padding-left: none;
+    margin-right: 12%;
   }
   .quotecontain {
     color: #2f2b2b;

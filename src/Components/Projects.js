@@ -12,11 +12,12 @@ function Projects() {
 
     <div className="wrapper1">
       <Card
+        weblink="https://github.com/jaemevans/jaemevans.github.io"
         image="images/personalsite.png"
         title="personal website"
-        description="my personal website"
+        description="my personal website created from scratch using React and Figma and deployed using Github pages."
       />
-       <Card
+       {/* <Card
         image="images/scubasteve.jpeg"
         title="personal website"
         description="my personal website"
@@ -35,7 +36,7 @@ function Projects() {
         image="images/personalsite.png"
         title="personal website"
         description="my personal website"
-      />
+      /> */}
     </div>
     </div>
     
