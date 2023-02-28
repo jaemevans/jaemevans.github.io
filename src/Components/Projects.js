@@ -15,28 +15,8 @@ function Projects() {
         weblink="https://github.com/jaemevans/jaemevans.github.io"
         image="images/personalsite.png"
         title="personal website"
-        description="my personal website created from scratch using React and Figma and deployed using Github pages."
+        description="my personal website developed from scratch using React, designed in Figma and deployed using Github pages."
       />
-       {/* <Card
-        image="images/scubasteve.jpeg"
-        title="personal website"
-        description="my personal website"
-      />
-       <Card
-        image="images/soccer_field.jpeg"
-        title="personal website"
-        description="my personal website"
-      />
-       <Card
-        image="images/personalsite.png"
-        title="personal website"
-        description="my personal website"
-      />
-       <Card
-        image="images/personalsite.png"
-        title="personal website"
-        description="my personal website"
-      /> */}
     </div>
     </div>
     
