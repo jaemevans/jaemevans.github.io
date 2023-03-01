@@ -98,7 +98,7 @@
         width: 60px;
         /* padding-bottom: 20px; */
         /* margin: 50px; */
-        filter: saturate(0);
+        filter: none;
     }
   }
   
@@ -164,7 +164,7 @@
         width: 40px;
         /* padding-bottom: 20px; */
         margin: 20px;
-        filter: saturate(0);
+        filter: none;
     }
   }
   
