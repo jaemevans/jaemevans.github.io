@@ -5,7 +5,6 @@ function About() {
   return (
     <div className="bothwrap">
          <div>
-    
         <img src="images/profpic.jpeg" alt="bytheriver" className="riverpic" />
       </div>
       <div className="aboutwrap">
