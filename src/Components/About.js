@@ -4,6 +4,10 @@ import React from "react";
 function About() {
   return (
     <div className="bothwrap">
+         <div>
+    
+        <img src="images/profpic.jpeg" alt="bytheriver" className="riverpic" />
+      </div>
       <div className="aboutwrap">
         <p>
           <p>hello i am jaelyn.</p> i am a junior studyng computer science at
@@ -55,10 +59,6 @@ function About() {
           🎥: Wizards of Waverly Place (lol)    
         </p>
 
-      </div>
-      <div>
-        {" "}
-        <img src="images/profpic.jpeg" alt="bytheriver" className="riverpic" />
       </div>
     </div>
   );
