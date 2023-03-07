@@ -4,14 +4,14 @@ import React from "react";
 function About() {
   return (
     <div className="bothwrap">
-         <div>
+      <div>
         <img src="images/scd.JPG" alt="bytheriver" className="riverpic" />
       </div>
       <div className="aboutwrap">
         <p>
           <p className="jaelyn">hello i am jaelyn.</p> i am a junior studyng computer science at
           the university of illinois at urbana champaign. i am passionate about
-          using technology to create inovative products for humans. my interests
+          using technology to create inovative products for humans that can improve society. my interests
           lie within front-end development, ui/ux design and health technology.
           i am currently co-op'ing with motorla solutions as a full stack intern
           where i have been able to improve my programming, communication, and
@@ -42,7 +42,7 @@ function About() {
           champion the next generation of underrepresented STEM leaders in K-12
           by providing immersive, hands-on mentorship and cultivating a passion
           for innovation and discovery. upon graduation, i plan to continue my
-          outreach work by creating my own stem outreach/afterschool program for innercity
+          outreach work by creating my own STEM outreach/afterschool program for innercity
           kids from chicago, a place i hold close to my heart.
           <br></br>
           <br></br>
@@ -55,7 +55,7 @@ function About() {
           <br></br>
           🎧: Kill Bill by SZA   {"      "}
           📚: Scar Tissue by Anthony Kiedis   {"     "}
-          🎥: Wizards of Waverly Place (lol)    
+          🎥: Wizards of Waverly Place (lol)
         </p>
 
       </div>

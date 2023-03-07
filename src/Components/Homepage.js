@@ -9,62 +9,102 @@ import TextLoop from "react-text-loop";
 
 function Homepage() {
   return (
-    <div>
+    <div className="realmain">
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       <div className="homepagemain">
-        <div className="greetings">
-          <TextLoop
-            children={[
-              "hello ",
-              "howdy ",
-              "aloha ",
-              "ciao ",
-              "bonjour ",
-              "hola ",
-              "shalom ",
-              "你好 ",
-              "olá ",
-              "أهلا ",
-              "hallo ",
-              "こんにちは ",
-              "안녕하세요 ",
-              "γεια ",
-              "kamusta "
-            ]}
-            springConfig={{ stiffness: 50, damping: 20 }}
-          />
+
+        <div className="leftside">
+          <div className="greetings">
+            <TextLoop
+              children={[
+                "hello ",
+                "안녕하세요 ",
+                "howdy ",
+                "aloha ",
+                "ciao ",
+                "bonjour ",
+                "hola ",
+                "shalom ",
+                "你好 ",
+                "olá ",
+                "أهلا ",
+                "hallo ",
+                "こんにちは ",
+                "γεια ",
+                "kamusta "
+              ]}
+              springConfig={{ stiffness: 50, damping: 20 }}
+            />
+          </div>
+          {/* this is the spacer not included in homepage main*/}
+          <div className="spacer">
+            <p> my name is jaelyn. </p>
+          </div>
 
         </div>
-        
-
 
         <div className="picdiv">
-          <img src="images/profpic1.png" alt="its me yall" className="img1" />
-        </div>
-
-        </div>
-
-
-        <div className="spacer">
-          <p> my name is jaelyn. </p>
+          <img src="images/scd.JPG" alt="its me yall" className="img1" />
         </div>
 
 
-          
+      </div>
 
-          {/* this is the footer */}
-        <div className="quotecontain">
-          <div className="quote">
-            <p>
-              "destrcution leads to a very rough road but it also breeeds creation"-
-              red hot chili peppers
-            </p>
-          </div>
-        </div>
 
+
+
+
+      <div className="rrr">  <p>"destrcution leads to a very rough road but it also breeeds creation"-
+            red hot chili peppers</p></div>
+
+
+
+
+
+
+
+
+    
 
       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 }
