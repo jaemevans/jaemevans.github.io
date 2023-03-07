@@ -21,6 +21,8 @@
 
 .leftside {
   /* background-color: pink; */
+  display: flex;
+ flex-direction: column;
 }
 
 .greetings {
@@ -38,7 +40,7 @@
 
 
 
-  text-overflow: clip;
+  /* text-overflow: clip; */
   /* overflow: hidden; */
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -168,7 +170,7 @@ justify-content: center;
     padding-bottom: none;
     /* padding-left: 10px; */
     text-align: center;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     padding-top: 80px;
     padding-left: 0px;
     padding-right: 0px;
@@ -192,7 +194,7 @@ justify-content: center;
 
   .spacer {
     margin-top: none;
-    padding-top: 0px;
+    padding-top: 5px;
     margin-left: 0px;
     padding-left: 25px;
     width: 100%;
