@@ -164,14 +164,12 @@ justify-content: center;
     /* overflow: hidden; */
     z-index: 1;
     height: 150px;
-    padding-top: 80px;
     font-size: 64px;
     padding-bottom: none;
     /* padding-left: 10px; */
     text-align: center;
     /* background-color: aquamarine; */
     padding-top: 0px;
-    /* padding-top: 120px; */
     padding-left: 0px;
     padding-right: 0px;
   }
