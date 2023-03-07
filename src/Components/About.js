@@ -5,11 +5,11 @@ function About() {
   return (
     <div className="bothwrap">
          <div>
-        <img src="images/profpic.jpeg" alt="bytheriver" className="riverpic" />
+        <img src="images/scd.JPG" alt="bytheriver" className="riverpic" />
       </div>
       <div className="aboutwrap">
         <p>
-          <p>hello i am jaelyn.</p> i am a junior studyng computer science at
+          <p className="jaelyn">hello i am jaelyn.</p> i am a junior studyng computer science at
           the university of illinois at urbana champaign. i am passionate about
           using technology to create inovative products for humans. my interests
           lie within front-end development, ui/ux design and health technology.
@@ -30,7 +30,7 @@ function About() {
           equity, and inclusion in the field. through my experiences in the
           industry and in academia, i have come to realize the importance of
           outreach work in educating future generations of underrepresented
-          students. i aspire to empower young geniuses to find passion stem and
+          students. i aspire to empower young geniuses to find passion in stem and
           pursue higher level education. i am a member of uiuc's national
           society of black engineers (NSBE) chapter where i actively participate
           on their high school visitation comitee to plan events for prospective

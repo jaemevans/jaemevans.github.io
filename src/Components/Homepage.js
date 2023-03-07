@@ -46,7 +46,9 @@ function Homepage() {
         </div>
 
 
-
+        <div className="spacer">
+          <p> my name is jaelyn. </p>
+        </div>
 
 
           
@@ -71,6 +73,3 @@ export default Homepage;
 
 
 
-// <div className="spacer">
-//           <p> my name is jaelyn. </p>
-//         </div>
