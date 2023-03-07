@@ -163,7 +163,7 @@ justify-content: center;
   .greetings {
     /* overflow: hidden; */
     z-index: 1;
-    height: 150px;
+    height: 200px;
     font-size: 64px;
     padding-bottom: none;
     /* padding-left: 10px; */
