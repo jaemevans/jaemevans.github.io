@@ -55,7 +55,7 @@ function About() {
           <br></br>
           🎧: Kill Bill by SZA   {"      "}
           📚: Scar Tissue by Anthony Kiedis   {"     "}
-          🎥: Wizards of Waverly Place (lol)
+          🎥: Gilmore Girls
         </p>
 
       </div>

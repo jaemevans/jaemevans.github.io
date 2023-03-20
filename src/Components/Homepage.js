@@ -10,20 +10,6 @@ import TextLoop from "react-text-loop";
 function Homepage() {
   return (
     <div className="realmain">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <div className="homepagemain">
 
         <div className="leftside">

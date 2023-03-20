@@ -170,7 +170,7 @@ justify-content: center;
     padding-bottom: none;
     /* padding-left: 10px; */
     text-align: center;
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     padding-top: 80px;
     padding-left: 0px;
     padding-right: 0px;
@@ -188,7 +188,7 @@ justify-content: center;
   }
 
   .picdiv {
-    padding-left: 0px;
+    padding: 15px;
     margin-left: 0px;
   }
 
