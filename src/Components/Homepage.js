@@ -6,12 +6,11 @@ import TextLoop from "react-text-loop";
 // import Link from "react-router";
 // import { BodyText } from "./ui";
 // import Navigation from './Shared/Navigation';
-
+//testingb
 function Homepage() {
   return (
     <div className="realmain">
       <div className="homepagemain">
-
         <div className="leftside">
           <div className="greetings">
             <TextLoop
