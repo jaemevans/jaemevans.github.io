@@ -1,6 +1,7 @@
 import "./Homepage.css";
 // import React from 'react';
 import React from "react";
+import { Link } from "react-router-dom";
 import TextLoop from "react-text-loop";
 // import pic from '../../public/images/profpic.jpeg';
 // import Link from "react-router";
@@ -47,7 +48,7 @@ function Homepage() {
 
 
       </div>
-
+      <button> <Link to="/sales">sales</Link></button>
 
 
 
