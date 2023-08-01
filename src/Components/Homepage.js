@@ -52,43 +52,8 @@ function Homepage() {
 
 
 
-      <div className="rrr">  <p>"destrcution leads to a very rough road but it also breeeds creation"-
+      <div className="rrr">  <p>"destrcution leads to a very rough road but it also breeds creation"-
             red hot chili peppers</p></div>
-
-
-
-
-
-
-
-
-    
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     </div>
   );

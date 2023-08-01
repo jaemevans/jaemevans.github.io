@@ -1,13 +1,16 @@
-import "./Contact.css";
 import React from "react";
+import "./Sales.css";
 
-function Contact() {
+
+function Sales() {
   return (
     <div>
+    <div className="data">
       <p>here is teh data file</p>
       <a href="sales.csv">data.csv</a>
+    </div>
     </div>
   );
 }
 
-export default Contact;
+export default Sales;
