@@ -9,6 +9,7 @@ import Homepage from "./Components/Homepage";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
+import Data from "./Components/Data";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <div className="a">
             <Routes>
               <Route path="/" element={<Homepage />} />
+              <Route path="/sales.csv" element={<Data />} />
               <Route path="/contact" element={<Contact/>} />
               <Route path="/about" element={<About/>} />
               <Route path="/projects" element={<Projects/>} />
