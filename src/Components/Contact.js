@@ -8,11 +8,16 @@ function Contact() {
         <h1>get in touch.</h1>
       </div>
       <div className="blab">
+        <div className="jae">
         <p>
-          see something wrong with my site? think my ui needs work? (trick
-          question i know it needs some tlc) wanna check out my music
+          wanna check out my music
           taste? feel free to connect with me on the various platforms below.
+          you can also check out my <a href="images/resume.pdf" target="_blank" rel="noopener noreferrer">résumé.</a>
         </p>
+        </div>
+        <div className="jar">
+        <img src="images/park.jpeg" class="park"/>
+        </div>
       </div>
       <div className="socials">
         <a href="mailto: jaelynevans1@gmail.com">

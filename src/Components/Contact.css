@@ -9,38 +9,65 @@
 .hello {
     color: #EB6440;
     font-size: 50px;
-    padding-left: 25px;
+    padding-left: 100px;
     /* background-color: aquamarine; */
+}
+.park {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    /* position: fixed; */
+    margin-left: 75%;
+    object-fit: cover;
+    /* padding-top: none; */
+    /* margin-bottom: 90px; */
+
+}
+.jar {
+    /* background-color: red; */
+    padding-right: 10px;
+}
+.jae {
+    /* background-color: green; */
+    width: 700px;
 }
 .blab {
     color: #2F2B2B;
-
+    display: flex;
+    flex-direction: row;
     font-size: 34px;
-    margin-left: 27%;
-    margin-top: 100px;
+    /* margin-left: 27%; */
+    margin-top: 80px;
     text-overflow: clip;
-    text-align: center;
+    text-align: left;
     /* background-color: cornflowerblue; */
-    width: 700px;
-    height: auto;
-    justify-items: center;
+    /* width: 700px; */
+    /* height: auto; */
+    /* justify-items: center; */
+    /* margin: auto; */
+    padding-left: 100px;
 }
 
 .socials {
     display: flex;
     flex-direction: row;
+    margin: auto;
     /* margin-left: 23%; */
     /* padding-right: 50px; */
     padding-top: 50px;
     justify-content: center;
     /* background-color: coral; */
     /* padding-bottom: 50px; */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 
 .img2 {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     /* padding-bottom: 20px; */
     margin: 50px;
     filter: brightness(0.75);

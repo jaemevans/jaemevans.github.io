@@ -48,11 +48,7 @@ function Homepage() {
 
 
       </div>
-      <button> <Link to="/sales">sales</Link></button>
-
-
-
-
+    
       <div className="rrr">  <p>"destrcution leads to a very rough road but it also breeds creation"-
             red hot chili peppers</p></div>
 

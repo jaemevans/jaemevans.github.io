@@ -53,9 +53,9 @@ function About() {
           <br></br>
           <br></br>
           <br></br>
-          🎧: Kill Bill by SZA   {"      "}
-          📚: Scar Tissue by Anthony Kiedis   {"     "}
-          🎥: Gilmore Girls
+          🎧: Stick Season Noah Kahan  {"      "}
+          📚: Design of Everyday Things  {"     "}
+          🎥: Family Feud YouTube Clips
         </p>
 
       </div>
