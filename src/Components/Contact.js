@@ -10,8 +10,8 @@ function Contact() {
       <div className="blab">
         <div className="jae">
         <p>
-          wanna check out my music
-          taste? feel free to connect with me on the various platforms below.
+          hello there! i would love to connect with you. 
+          whether it's shooting me an email or checking out some of my playlists, feel free to use the links down below!
           you can also check out my <a href="images/resume.pdf" target="_blank" rel="noopener noreferrer">résumé.</a>
         </p>
         </div>

@@ -9,7 +9,7 @@ function About() {
       </div>
       <div className="aboutwrap">
         <p>
-          <p className="jaelyn">hello i am jaelyn.</p> i am a junior studyng computer science at
+          <p className="jaelyn">hello i am jaelyn.</p> i am a senior (woah) studyng computer science at
           the university of illinois at urbana champaign. i am passionate about
           using technology to create inovative products for humans that can improve society. my interests
           lie within front-end development, ui/ux design and health technology.
@@ -53,9 +53,9 @@ function About() {
           <br></br>
           <br></br>
           <br></br>
-          🎧: Stick Season Noah Kahan  {"      "}
+          🎧: Counting Stars One Republic  {"      "}
           📚: Design of Everyday Things  {"     "}
-          🎥: Family Feud YouTube Clips
+          🎥: Yes Theory on YouTube
         </p>
 
       </div>
