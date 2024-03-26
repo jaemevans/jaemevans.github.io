@@ -17,8 +17,6 @@ nav{
   height: 80px;
   width: 100%;
   background-color: #f5f5f5;
-  /* background-color: #2F2B2B; */
-
   align-items: center;
   justify-content: space-between;
   padding: 0 50px 0 100px;
@@ -36,7 +34,7 @@ nav .logo a {
 
 nav .logo a:visited {
   /* color: #f5f5f5; */
-  color: #497174;
+  color: #2D7BD8;
 }
 
 nav .logo a:hover {
@@ -55,7 +53,7 @@ nav ul li{
 
 nav ul li a{
   /* color: #f2f2f2; */
-  color: #497174;
+  color: #2D7BD8;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;

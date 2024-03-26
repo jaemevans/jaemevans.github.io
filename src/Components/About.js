@@ -3,9 +3,18 @@ import React from "react";
 
 function About() {
   return (
-    <div className="bothwrap">
-      <div>
-        <img src="images/scd.JPG" alt="bytheriver" className="riverpic" />
+    <div className="remodel">
+      <div>currently remodeling, come back soon!</div>
+    </div>
+  );
+}
+
+export default About;
+
+
+
+ {/* <div>
+        <img src="images/market.JPG" alt="market" className="riverpic" />
       </div>
       <div className="aboutwrap">
         <p>
@@ -57,10 +66,4 @@ function About() {
           📚: Design of Everyday Things  {"     "}
           🎥: Yes Theory on YouTube
         </p>
-
-      </div>
-    </div>
-  );
-}
-
-export default About;
+      </div> */}

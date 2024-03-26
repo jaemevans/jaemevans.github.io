@@ -4,7 +4,7 @@ import React from "react";
 function Contact() {
   return (
     <div className="contacts">
-      <div className="hello">
+      {/* <div className="hello">
         <h1>get in touch.</h1>
       </div>
       <div className="blab">
@@ -37,7 +37,8 @@ function Contact() {
         >
           <img src="images/spotify.png" alt="spotify" className="img2" />{" "}
         </a>
-      </div>
+      </div> */}
+      <div>currently under construction, come back soon!</div>
     </div>
   );
 }
