@@ -3,7 +3,7 @@
   flex-direction: row; /* side by side on desktop */
   align-items: flex-start;
   gap: 2rem;
-  padding: 2rem;
+    padding: 2rem 4rem 2rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -12,9 +12,10 @@
   flex: 0 0 45%; /* 45% of container width */
 }
 
+
 .about-portrait img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -30,7 +31,6 @@
 
 .about-content h2 {
   font-size: 1.5rem;
-  color: #777;
   margin-bottom: 1rem;
 }
 

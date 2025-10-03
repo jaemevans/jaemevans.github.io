@@ -2,12 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #333;
+  background: #ffffff;
   padding: 1rem 2rem;
-  color: white;
+  color: #3674b5;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .nav-logo {
+  font-family: "EB Garamond", Georgia, serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -18,7 +23,7 @@
 }
 
 .nav-links a {
-  color: white;
+  color: #3674b5;
   text-decoration: none;
   transition: color 0.2s;
 }
@@ -35,11 +40,14 @@
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    box-shadow: none;
+  }
   .nav-links {
     position: absolute;
     top: 60px;
     right: 0;
-    background: #333;
+    background: #ffffff;
     flex-direction: column;
     width: 200px;
     text-align: right;

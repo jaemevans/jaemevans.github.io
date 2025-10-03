@@ -12,6 +12,7 @@ function Navbar() {
       <div className={`nav-links ${isOpen ? "open" : ""}`}>
         <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
         <Link to="/about" onClick={() => setIsOpen(false)}>About</Link>
+         <Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
         <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
       </div>
 

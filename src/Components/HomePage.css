@@ -1,0 +1,104 @@
+.homepage-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+h3 {
+  color: #333;
+}
+
+
+.hero-left {
+  flex: 0 0 55%;
+  text-align: left; /* LEFT aligned */
+  font-family: 'EB Garamond', Georgia, serif;
+  color: #333;
+   animation: slideInLeft 2.0s ease-out forwards;
+}
+
+.hero-greeting {
+  font-size: 5rem;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.hero-static {
+  font-size: 2.5rem;
+  margin-top: 0;
+  color: #333;
+}
+
+.hero-right {
+  margin-top: 3rem;
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center; /* keep portrait on right */
+}
+@keyframes dropIn {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100px); /* start 100px left */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.hero-portrait {
+  width: 100%;
+  max-width: 90%;
+  border-radius: 10px;
+    animation: dropIn 3s ease-out;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .homepage-hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .hero-left, .hero-right {
+    flex: 1 1 100%;
+    text-align: center; /* center on mobile */
+  }
+
+  .hero-portrait {
+    border-radius: 10px;
+    margin-top: 0;
+  }
+
+  .hero-greeting {
+    font-size: 4rem;
+  }
+
+  .hero-static {
+    font-size: 1.8rem;
+  }
+}
