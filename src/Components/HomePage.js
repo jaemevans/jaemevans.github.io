@@ -10,6 +10,7 @@ const greetings = [
   "Ciao",
   "Hallo",
   "Olá",
+  "Zdravo",
 ];
 
 const HomePage = () => {
@@ -34,7 +35,7 @@ const HomePage = () => {
           {greetings[index]}
         </h1>
         <h2 className="hero-static">my name is Jaelyn.</h2>
-        <h3>
+        <h3 style={{ color: "#333" }}>
           I am a software engineer, traveler, and problem solver from Chicago,
           IL USA
         </h3>

@@ -3,25 +3,44 @@
   flex-direction: row; /* side by side on desktop */
   align-items: flex-start;
   gap: 2rem;
-    padding: 2rem 4rem 2rem 2rem;
+  padding: 2rem 4rem 2rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
+   flex-wrap: wrap;
 }
 
 .about-portrait {
-  flex: 0 0 45%; /* 45% of container width */
-}
+  flex: 0 0 45%; 
 
+  width: 100%;
+  border-radius: 10px;
+  position: sticky;
+  top: 6rem; /* distance from top of viewport when sticky */
+  align-self: flex-start; 
+  height: auto;
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
 .about-portrait img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
   object-fit: cover;
+  animation: slideInLeft 2.0s ease-out forwards; /* image drops in */
 }
 
 .about-content {
-  flex: 0 0 55%; /* 55% of container width */
+  flex: 1; /* 55% of container width */
+  text-align: left;
 }
 
 .about-content h1 {
@@ -40,6 +59,42 @@
   color: #333;
 }
 
+@keyframes slideDown {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fade-down {
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.social-links {
+  display: flex;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.social-links a {
+  color: gray;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: inherit;
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
+
+
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .about-container {
@@ -53,6 +108,9 @@
   .about-portrait {
     flex: 0 0 auto; /* full width as needed */
     width: 150px; /* smaller portrait on mobile */
+     position: static;
+        align-self: center; 
+
   }
 
   .about-portrait img {
