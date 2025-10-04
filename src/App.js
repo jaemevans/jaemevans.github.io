@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import About from "./Components/About";
 import HomePage from "./Components/HomePage";
 import Navbar from "./Components/Shared/NavBar";
+import Experience from './Components/Experience';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
+        <Route path="/experience" element={<Experience />} />
 
       </Routes>
     </Router>

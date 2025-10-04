@@ -1,5 +1,6 @@
 import "./About.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 import portrait from "../assets/portrait4.JPG";
 // Font Awesome icons
@@ -36,10 +37,8 @@ function About() {
             Hi! I am Jaelyn Evans, and I grew up on the North Side of Chicago.
             When I am not coding, you can find me outside enjoying nature. I am
             an avid cyclist, runner and hiker. I am always looking for ways to
-            challenge myself and stay active. I also enjoy spending time with my
-            friends. Whether that be a trip to the lake in the summer, a
-            shopping trip or simply grabbing a bite to eat, they are some of the
-            most important people in my life.
+            challenge myself and stay active. I also enjoy traveling the globe
+            and meeting new people.
           </p>
         </FadeDownSection>
         <FadeDownSection delay={600}>
@@ -49,9 +48,9 @@ function About() {
             University of Illinois at Urbana-Champaign in May 2024. While in
             college, I interned with Motorola Solutions at their Research Park
             location, contributing to full-stack web applications and managing
-            database deployments—an experience that allowed me to sharpenboth my
-            technical skills and my ability to work collaboratively on complex
-            projects.
+            database deployments—an experience that allowed me to sharpen both
+            my technical skills and my ability to work collaboratively on
+            complex projects.
           </p>
           <p>
             During my time at university, I co-founded CurbScout, a mobile app
@@ -62,7 +61,7 @@ function About() {
             while traveling through Europe and South America, gaining even more
             experience in remote collaboration and project management. You can
             read more about my professional journey and the projects I’ve worked
-            on here.
+            on <Link to="/experience">here</Link>.
           </p>
         </FadeDownSection>
         <FadeDownSection delay={200}>
