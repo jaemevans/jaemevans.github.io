@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./HomePage.css";
-import portrait from "../assets/grad.JPG"; // replace with your image path
+import portrait from "../assets/grad.JPG"; 
 
 const greetings = [
   "Hello",
